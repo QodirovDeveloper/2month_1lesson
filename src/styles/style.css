@@ -1,0 +1,178 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Epilogue", serif;
+}
+.nav-container
+{
+  max-width: 1360px;
+  margin: 0 auto;
+}
+.container
+{
+  max-width: 1145px;
+  margin: 0 auto;
+}
+details
+{
+  padding-top: 71px;
+  width: 153px;
+  height: 160px;
+}
+.hover_svg-1
+{
+  margin-right: 40px;
+}
+.color:hover
+{
+  color: #151515;
+}
+.color
+{
+  color: #686868;
+}
+.nav
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav ul
+{
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+.b{
+  color: #686868;
+  border: 1.5px solid #686868;
+}
+.b:hover
+{
+  background: #fff;
+  color: #151515 ;
+  border: 1.5px solid #151515;
+  transform: scale(104%);
+}
+.blak:hover
+{
+  color: #151515;
+}
+.nav button
+{
+  cursor: pointer;
+  padding: 13px 23px;
+  border-radius: 14px;
+  background: #fff;
+  border: 1.5px solid #686868;
+}
+.nav a
+{
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #686868;
+}
+.nav select
+{
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #686868;
+}
+.nav__left
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* column-gap: 40px;   */
+}
+.nav__left ul
+{
+  display: flex;
+  column-gap: 40px;
+}
+select
+{
+  border: none;
+}
+.main
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__left h1
+{
+  width: 520px;
+  height: 161px;
+  font-family: Epilogue;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: -1.1111111640930176px;
+}
+.main__left button:hover
+{
+  background-color: #fff;
+  color: #151515;
+  transform: scale(104%);
+
+}
+.main__left button
+{
+  transition: .3s;
+  cursor: pointer;
+  font-family: Epilogue;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.25px;
+  background: #151515;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 15px;
+  border: 1px solid #151515;
+}
+.main__logo
+{
+  margin-top: 108px;
+  display: flex;
+  column-gap: 40px;
+}
+.main__left p
+{
+  margin-top: 48px;
+  margin-bottom: 51px;
+  width: 445px;
+  height: 84px;
+  top: 443px;
+  left: 165px;
+  font-family: Epilogue;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color:#686868;
+}
+.hover_svg:hover
+{
+  transform: scale(104%);
+}
+.hover_svg
+{
+  transition: .3s;
+}
+.hover_svg-1
+{
+  transition: .2s;
+}
+.hover_svg-1:hover
+{
+  transform: scale(159%);
+}
