@@ -7,6 +7,11 @@
   list-style: none;
   font-family: "Epilogue", serif;
 }
+
+select {
+  outline: none;
+}
+
 .nav-container
 {
   max-width: 1360px;
@@ -41,6 +46,8 @@ details
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 35px;
 }
 .nav ul
 {
@@ -90,6 +97,7 @@ details
 .nav__left
 {
   display: flex;
+  gap: 15px;
   align-items: center;
   justify-content: center;
   /* column-gap: 40px;   */
