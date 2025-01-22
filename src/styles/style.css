@@ -33,6 +33,7 @@ details
 }
 .color
 {
+  cursor: pointer;
   color: #686868;
 }
 .nav
